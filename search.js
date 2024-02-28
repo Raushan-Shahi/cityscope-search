@@ -12,7 +12,7 @@ function handleQuery(query) {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': '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'   // we need to enter our API key here
+                'Authorization': 'API key'   // we need to enter our API key here
             },
             body: JSON.stringify({
                 prompt: query,
