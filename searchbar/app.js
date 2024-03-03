@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to MongoDB database
-mongoose.connect('mongodb+srv://raushan:nYXqTlrcim2jMfa5@cityscope-hj-09-11-2022.d55av.mongodb.net/?retryWrites=true&w=majority&appName=cityscope-hj-09-11-2022-production', {
+mongoose.connect('mongodb+srv://<username.:<password>@cityscope-hj-09-11-2022.d55av.mongodb.net/?retryWrites=true&w=majority&appName=cityscope-hj-09-11-2022-production', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
